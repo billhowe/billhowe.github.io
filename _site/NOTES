@@ -1,0 +1,6 @@
+Possible theme:
+http://bitwiser.in/
+
+To start server
+bundle exec jekyll serve -w
+~                            
