@@ -6,7 +6,7 @@ published: true
 
 In the incubator today I spent some time helping Allison Smith get set up with github, but the conversation quickly turned to processing ADCP data.  ADCP stands for Acoustic Doppler Current Profiler.  I actually have a fair amount of experience working with ADCP data due to my previous life at the Center for Coastal Margin Observation and Prediction (CMOP). An ADCP is an oceanographic instrument that uses three or four membranes to create sound waves underwater.  These sound waves bounce off particles (and thermoclines, and everything else) in the water and are received back by the instrument.  By triangulating from the different membranes and measuring the return time, you can deduce how fast the water is moving and in what direction.  Better yet, you get an entire profile of velocities at once.  So you can mount it on the bottom of a river pointing up and get a timeseries of the water column.  Or you can mount it on a ship pointing down and get a transect, like this:
 
-![ADCP profiles](./june61_vel_mag.gif "ADCP Profiles")
+![ADCP profiles](./images/june61_vel_mag.gif "ADCP Profiles")
 
 The trouble is that the ship rocks back and forth, makes a lot of noise, and makes a lot of bubbles, which confounds the data processing for an already sensitive instrument and difficult calculation. 
 
